@@ -17,23 +17,23 @@ body {
 
         }
 
-
         h1 {
             text-align: center;
+        }
+         
+        .ham {
+            display: none;
+            
+            @media (max-width: $md) {
+                cursor: pointer;
+                display: block;
+                background: red;
+            }
         }
 
         #nav_container {
 
-            
-            .ham {
-                cursor: pointer;
-                display: none;
-                
-                @media (max-width: $md) {
-                    cursor: pointer;
-                    display: block;
-                }
-            }
+           
 
             .main_menu {
 

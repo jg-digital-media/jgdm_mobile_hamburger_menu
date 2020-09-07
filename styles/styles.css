@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: darkgray; }
+
+#container {
+  width: 100%; }
+  #container .header_container h1 {
+    text-align: center; }
+  #container .header_container #nav_container .ham {
+    cursor: pointer;
+    display: none; }
+    @media (max-width: 980px) {
+      #container .header_container #nav_container .ham {
+        cursor: pointer;
+        display: block; } }
+  #container section article h2 {
+    margin-top: 10px; }
+  #container section article .article_content p {
+    margin-bottom: 20px; }
+  #container section aside h2 {
+    margin-top: 10px; }
+  #container footer p {
+    text-align: center; }
+
+/*# sourceMappingURL=styles.css.map */

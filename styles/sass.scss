@@ -1,8 +1,15 @@
-* {
-    padding: 0;
-    margin: 0;
-}
+//config
 
-body {
-    background: darkgray;
-}
+@import "config/breakpoints";
+@import "config/colours";
+@import "config/fonts";
+
+//utilities
+@import "utilities/extends";
+@import "utilities/mixins";
+
+//main content
+@import "inc/header";
+@import "main";
+@import "inc/footer";
+

@@ -13,8 +13,11 @@ body {
 
     .header_container {
 
-        img#main_logo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
 
+        img#main_logo {
+            margin: 8px;
         }
 
         h1 {
@@ -40,7 +43,25 @@ body {
             }
 
             ul {
+                @media(max-width: $md) {
+                    
+                    background: black;
+                    width: 320px;
+                    position: absolute;
+                    display: block;
+                    top: 0;
+                    left: 0;
+                    height: 100vh;
+                    margin-left: 0;
+
+                }
+
                 li {
+
+                    @media(max-width: $md) {
+                        left: 0;
+                        display: block;
+                    }
 
                 }
 
@@ -54,20 +75,29 @@ body {
 
     section {
 
-        article {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .main_article {
+
 
             h2 {
                 margin-top: 10px;
             }
 
             .article_content {
+                width: 56%;
+
                 p {
                     margin-bottom: 20px;
                 }
             }
         }
 
-        aside {
+        .aside_clock {
+
+            width: 33%;
 
             h2 {
                 margin-top: 10px;
@@ -82,10 +112,14 @@ body {
 
         }
     }
+}
+    
+    
+footer {
+    
+    width: 100%;
 
-    footer {
-        p {
-            text-align: center;
-        }
+    p {
+        text-align: center;
     }
 }

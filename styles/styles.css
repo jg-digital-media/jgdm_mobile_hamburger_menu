@@ -27,6 +27,7 @@ body {
         width: 320px;
         position: absolute;
         display: block;
+        display: none;
         top: 0;
         left: 0;
         height: 100vh;
@@ -45,9 +46,9 @@ body {
       width: 56%; }
       #container section .main_article .article_content p {
         margin-bottom: 20px; }
-    #container section .aside_clock {
-      width: 33%; }
-      #container section .aside_clock h2 {
+    #container section .aside_block {
+      width: 60%; }
+      #container section .aside_block h2 {
         margin-top: 10px; }
 
 footer {

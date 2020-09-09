@@ -43,12 +43,15 @@ body {
             }
 
             ul {
+
+                
                 @media(max-width: $md) {
                     
                     background: black;
                     width: 320px;
                     position: absolute;
                     display: block;
+                    display: none;
                     top: 0;
                     left: 0;
                     height: 100vh;
@@ -95,9 +98,9 @@ body {
             }
         }
 
-        .aside_clock {
+        .aside_block {
 
-            width: 33%;
+            width: 60%;
 
             h2 {
                 margin-top: 10px;

@@ -72,6 +72,17 @@ body {
       width: 60%; }
       #container section .aside_block h2 {
         margin-top: 10px; }
+      #container section .aside_block .aside_list {
+        position: relative;
+        left: 5px; }
+        #container section .aside_block .aside_list li {
+          display: inline-block;
+          display: block;
+          list-style-type: none; }
+          #container section .aside_block .aside_list li a {
+            color: red; }
+            #container section .aside_block .aside_list li a:hover {
+              text-decoration: none; }
 
 footer {
   width: 100%; }

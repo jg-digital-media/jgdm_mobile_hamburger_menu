@@ -16,30 +16,46 @@ body {
   width: 100%; }
   #container .header_container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; }
+    grid-template-columns: 1fr 1fr 1fr;
+    background: black;
+    border-bottom: white 3px solid; }
     @media (max-width: 980px) {
       #container .header_container {
         grid-template-columns: 1fr 1fr 0fr; } }
+    @media (max-width: 560px) {
+      #container .header_container {
+        grid-template-columns: 215px 0fr 1fr; } }
     #container .header_container img#main_logo {
       margin: 8px;
-      width: 65%; }
+      width: 30%; }
       @media (max-width: 680px) {
         #container .header_container img#main_logo {
           width: 95%; } }
+      @media (max-width: 560px) {
+        #container .header_container img#main_logo {
+          width: 50%; } }
     #container .header_container h1 {
       text-align: center;
-      margin-top: 5px; }
+      margin-top: 5px;
+      color: white; }
       @media (max-width: 980px) {
         #container .header_container h1 {
           font-size: 15pt; } }
     #container .header_container .ham {
-      display: none; }
+      display: none;
+      color: white;
+      transition: transform .1s; }
+      #container .header_container .ham:hover {
+        transform: scale(1.03); }
       @media (max-width: 980px) {
         #container .header_container .ham {
           cursor: pointer;
           display: block;
           margin: 10px;
           font-size: 25pt; } }
+      @media (max-width: 560px) {
+        #container .header_container .ham {
+          text-align: right; } }
     #container .header_container #nav_container .main_menu {
       margin-top: 5px; }
       @media (max-width: 980px) {

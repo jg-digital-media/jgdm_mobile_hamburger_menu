@@ -16,24 +16,35 @@ body {
 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        background: black;
+        border-bottom: white 3px solid;
 
         @media(max-width: $md) {
             grid-template-columns: 1fr 1fr 0fr;
+        }
+        
+        @media(max-width: $xs) {
+            grid-template-columns: 215px 0fr 1fr;
         }
 
         img#main_logo {
             margin: 8px;
 
-            width: 65%;
+            width: 30%;
 
             @media (max-width: $sm){
                 width: 95%;
+            }
+            
+            @media (max-width: $xs){
+                width: 50%;
             }
         }
 
         h1 {
             text-align: center;
             margin-top: 5px;
+            color: white;
             @media (max-width: $md) {
                 font-size: 15pt;
             }
@@ -41,12 +52,23 @@ body {
          
         .ham {
             display: none;
+            color: white;
+            transition: transform .1s;
+
+            &:hover {
+                transform: scale(1.03);
+            }
             
             @media (max-width: $md) {
                 cursor: pointer;
                 display: block;
                 margin: 10px;
                 font-size: 25pt;
+            }
+
+            
+            @media(max-width: $xs) {
+                text-align: right;
             }
         }
 

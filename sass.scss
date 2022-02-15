@@ -1,0 +1,24 @@
+//config
+
+@import "sass/head.scss";
+
+
+@import "sass/config/breakpoints";
+@import "sass/config/colours";
+@import "sass/config/fonts";
+
+//utilities
+@import "sass/utilities/extends";
+@import "sass/utilities/mixins";
+
+//main content
+@import "sass/inc/header";
+
+//Common
+@import "sass/common/nav";
+
+@import "sass/main";
+
+//main content
+@import "sass/inc/footer";
+

@@ -91,7 +91,7 @@ body {
             
             @media(max-width: $md) {
                 
-                background: #2d2d2d;
+                background: $bg-mob-menu;
                 width: 320px;
                 position: absolute;
                 display: block;
@@ -118,13 +118,13 @@ body {
             }
 
             li a.menu_link {
-                color: white;
+                color: $col-primary-anchor;
                 text-decoration: none;
                 margin-left: 10px;
                 transition: color .4s;
 
                 &:hover {
-                    color: #ff5100;
+                    color: hsl(50, 87%, 69%);
                 }
 
                 

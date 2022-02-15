@@ -14,6 +14,6 @@
 
 + The main navigation it affects is an unordered list with the class of "```main_menu```". 
 
-+ Beyond this feel free to change the design as you see fit. 
++ Beyond this, you can feel free to change the design as you see fit and I hope this will help you on your way. 
 
 **Last update:** 15th February 2022

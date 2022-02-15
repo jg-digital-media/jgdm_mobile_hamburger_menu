@@ -1,0 +1,142 @@
+
+
+body {
+    background: $bg-body;
+    font-family: $font;
+}
+
+
+.header_container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: $bg-header;
+    border-bottom: $col-heading-1 3px solid;
+
+    @media(max-width: $md) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    @media(max-width: $xs) {
+        grid-template-columns: 215px 0fr 1fr;
+    }
+
+    img#main_logo {
+        margin: 5px;
+
+        /* width: 30%; */
+        width: 110px;
+
+        @media (max-width: $sm){
+            width: 40%;
+        }
+        
+        @media (max-width: $xs){
+            width: 50%;
+        }
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 5px;
+        font-size: 20px;
+        color: $col-heading-1;
+        @media (max-width: $md) {
+            font-size: 15pt;
+        }
+    }
+     
+    .ham {
+
+        display: none;
+        color: $col-secondary;
+        transition: transform .1s, color .2s;
+        transform-origin: center;
+
+        &:hover {
+            transform: scale(1);
+            color: #fcfc64;
+        }
+        
+        @media (max-width: $md) {
+            cursor: pointer;
+            display: block;
+            margin: 5px;
+            font-size: 25pt;
+            text-align: right;
+        }
+
+        
+        @media(max-width: $sm) {
+            text-align: right;
+        }
+    }
+
+    #nav_container {
+
+       
+
+        .main_menu {
+            margin-top: 5px;
+
+            @media(max-width: $md) {
+                margin-top: 0px;
+                width: 220px;
+
+            }
+        }
+
+        ul {
+
+            
+            @media(max-width: $md) {
+                
+                background: #2d2d2d;
+                width: 320px;
+                position: absolute;
+                display: block;
+                display: none;
+                top: 0;
+                left: 0;
+                height: 100vh;
+                margin-left: 0;
+                border-right: 3px solid white;
+
+            }
+
+            li {
+
+                display: inline-block;
+
+                @media(max-width: $md) {
+                    left: 0;
+                    display: block;
+                    border-bottom: 2 grey solid;
+
+                }
+
+            }
+
+            li a.menu_link {
+                color: white;
+                text-decoration: none;
+                margin-left: 10px;
+                transition: color .4s;
+
+                &:hover {
+                    color: #ff5100;
+                }
+
+                
+                @media(max-width: $md) {
+                    margin-bottom: 30px;
+                    margin-bottom: 30px;
+                    display: block;
+                    top: 20px;
+                    position: relative;
+                }
+            }
+        }
+    }
+
+}

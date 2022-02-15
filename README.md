@@ -6,7 +6,9 @@
 
 + Using jQuery for mobile menu toggling for now.
 
-+ Menu toggles from top
++ This project is setup, by default for using the SASS precompiler for CSS. In your command prompt or Terminal, type the following in the project root.  ```sass --watch sass.scss:styles.css```
+
++ The menuMenu toggles from top left. It does not affect the position of the page contents.
 
 + Mobile menu kicks in at ```980px``` width breakpoint.
 

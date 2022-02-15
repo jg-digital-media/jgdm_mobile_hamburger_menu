@@ -20,7 +20,7 @@ body {
         border-bottom: white 3px solid;
 
         @media(max-width: $md) {
-            grid-template-columns: 1fr 1fr 0fr;
+            grid-template-columns: 1fr 1fr 1fr;
         }
         
         @media(max-width: $xs) {
@@ -28,12 +28,13 @@ body {
         }
 
         img#main_logo {
-            margin: 8px;
+            margin: 5px;
 
-            width: 30%;
+            /* width: 30%; */
+            width: 110px;
 
             @media (max-width: $sm){
-                width: 95%;
+                width: 40%;
             }
             
             @media (max-width: $xs){
@@ -51,23 +52,27 @@ body {
         }
          
         .ham {
+
             display: none;
             color: white;
-            transition: transform .1s;
+            transition: transform .1s, color .2s;
+            transform-origin: center;
 
             &:hover {
-                transform: scale(1.03);
+                transform: scale(1);
+                color: #fcfc64;
             }
             
             @media (max-width: $md) {
                 cursor: pointer;
                 display: block;
-                margin: 10px;
+                margin: 5px;
                 font-size: 25pt;
+                text-align: right;
             }
 
             
-            @media(max-width: $xs) {
+            @media(max-width: $sm) {
                 text-align: right;
             }
         }

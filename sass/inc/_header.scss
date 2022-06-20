@@ -36,14 +36,53 @@ body {
         }
     }
 
-    h1 {
-        text-align: center;
-        margin-top: 5px;
-        font-size: 20px;
-        color: $col-heading-1;
-        @media (max-width: $md) {
-            font-size: 15pt;
+    div.title {
+
+        text-align: left;
+        width: 65%;
+
+        @media ( max-width: $md) {
+
+            width: 100%;
+
         }
+
+        h1 {
+
+            text-align: center;
+            margin-top: 5px;
+            font-size: 26pt;
+            color: $col-heading-1;
+            font-weight: normal;
+            
+            @media (max-width: $md) {
+
+                font-size: 18pt;
+            }
+
+            
+            @media (max-width: $sm) {
+
+                font-weight: 15pt;
+            }
+
+            #byjgdm {
+
+                color: orange;
+                font-size: 12px;
+                position: relative;
+                bottom: 18px;
+                font-weight: bold;
+
+                @media (max-width: $md) {
+
+                    bottom: 12px;
+                }
+                
+            }
+
+        }
+
     }
      
     .ham {

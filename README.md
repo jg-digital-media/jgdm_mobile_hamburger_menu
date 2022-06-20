@@ -1,4 +1,4 @@
-# jgdm_mobile_hamburger_menu   v1.3
+# jgdm_mobile_hamburger_menu  **Last update:** 20th June 2022 - 16:27(v1.3)
 
 
 
@@ -19,5 +19,3 @@
 + The main navigation it affects is an unordered list with the class of "```main_menu```". 
 
 + Beyond this, you can feel free to change the design as you see fit. But I hope this will help give you a start to your next project. 
-
-**Last update:** 20th June 2022

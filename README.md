@@ -1,4 +1,6 @@
-# jgdm_mobile_hamburger_menu   v1.2
+# jgdm_mobile_hamburger_menu   v1.3
+
+
 
 ## Project Setup instructions
 
@@ -10,12 +12,12 @@
 
 + The menuMenu toggles from top left. It does not affect the position of the page contents.
 
-+ Mobile menu kicks in at ```980px``` width breakpoint.
++ Mobile menu comes into effect at the ```980px``` width breakpoint.
 
 + The hamburger menu uses a class of "```ham```" which allows it to be selected by JavaScript and styled by CSS.
 
 + The main navigation it affects is an unordered list with the class of "```main_menu```". 
 
-+ Beyond this, you can feel free to change the design as you see fit and I hope this will help you on your way. 
++ Beyond this, you can feel free to change the design as you see fit. But I hope this will help give you a start to your next project. 
 
-**Last update:** 15th February 2022
+**Last update:** 20th June 2022

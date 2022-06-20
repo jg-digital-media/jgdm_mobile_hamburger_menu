@@ -7,30 +7,39 @@
 
     width: 100%;
 
-  
     section {
 
         padding: 10px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 3fr 1fr;
 
         @media (max-width: $md) {
             display: flex;
             flex-direction: column-reverse;
             width: 94%;
 
+            display: block;
+            width: 95%;
+            margin: 0 auto;
+
         }
 
         .main_article {
 
+            /* border: solid black 2px; */
+            width: 65%;
+            width: 95%;
+            background: $bg-secondary;
+            border: solid black 1px;
+            padding: 10px;
+            border-radius: 10px;
 
             h2 {
                 margin: 20px 0;
             }
 
             .article_content {
-                width: 56%;
-
+                
                 @media (max-width: $md) {
                     width: 95%;
                 }
@@ -38,13 +47,51 @@
                 p {
                     margin-bottom: 20px;
                     line-height: 1.6;
+
+                    em, i {
+                        color: orange;
+                    }
+
+                    strong, b {
+                        color: orange;
+                    }
+                }
+
+                ul {
+
+                    margin: 10px 0;
+
+                    li {
+
+                        position: relative;
+                        left: 10px;
+                        /* display: inline-block; */
+                        display: block;
+                        margin: 10px 0;
+
+                        a {
+
+                            color: red;
+                        }
+
+                    }
+
+                }
+
+                h3, h4, h5, h6 {
+
                 }
             }
         }
 
         .aside_block {
 
-            width: 60%;
+            background: $bg-secondary;
+            border: solid black 1px;
+            width: 80%;
+            padding: 10px;
+            border-radius: 10px;
+
 
             @media (max-width: $md) {
                 width: 90%;

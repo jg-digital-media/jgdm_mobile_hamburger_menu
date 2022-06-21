@@ -4,6 +4,8 @@
 
 ## Project Setup instructions
 
++ ```cd``` to a project root directory and clone repository using ```git clone https://github.com/jg-digital-media/jgdm_php_boilerplate```
+
 + Setup for a mobile website with a hamburger menu
 
 + Using jQuery for mobile menu toggling for now.

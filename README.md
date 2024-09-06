@@ -1,4 +1,4 @@
-# jgdm_mobile_hamburger_menu  **Last Update:** 21 April 2022 - 08:12 (v1.4)
+# jgdm_mobile_hamburger_menu  **Last Update:** 06 September 2024 - 11:49 (v1.5)
 
 
 
